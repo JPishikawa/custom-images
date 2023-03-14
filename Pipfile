@@ -22,10 +22,6 @@ jupyterlab-widgets = "~=3.0.5"
 jupyter-resource-usage = "~=0.6.0"
 jupyterlab-s3-browser = "~=0.10.1"
 
-# Additional packages
-ray = "~=2.2"
-gitpython = "~=3.1"
-
 # Parent image requirements to maintain cohesion
 jupyterlab = "~=3.5.3"
 jupyter-server = "~=2.1.0"
@@ -37,6 +33,10 @@ nbgitpuller = "~=1.1.1"
 # ---
 thamos = "~=1.29.1"
 wheel = "~=0.38.4"
+
+# 追加
+ray = "~=2.3.0"
+xgboost = "~=1.7.4"
 
 [requires]
 python_version = "3.9"
